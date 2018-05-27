@@ -1,0 +1,24 @@
+long.validate.error.msg=该字段内容必须为整数！
+int.validate.error.msg=该字段内容必须为整数！
+double.validate.error.msg=该字段内容必须为小数！
+string.validate.error.msg=该字段内容不允许为空！
+boolean.validate.error.msg=该字段内容需要设置为true或false！
+date.validate.error.msg=该字段内容必须设置为日期格式（yyyy-MM-dd）！
+datetime.validate.error.msg=该字段内容必须设置为日期时间格式（yyyy-MM-dd hh:mm:ss）！
+rand.validate.error.msg=验证码输入错误！
+long[].validate.error.msg=该字段内容必须为整数！
+int[].validate.error.msg=该字段内容必须为整数！
+string[].validate.error.msg=该字段内容不允许为空！
+mime.validate.error.msg=非法的文件上传类型！
+
+
+vo.add.success={0}信息添加成功！
+vo.add.failure={0}信息添加失败！
+vo.edit.success={0}信息修改成功！
+vo.edit.failure={0}信息修改失败！
+vo.delete.success={0}信息删除成功！
+vo.delete.failure={0}信息删除失败！
+
+login.success=登录成功，欢迎您回来！
+login.failure=登录失败，错误的用户名与密码！
+logout.success=您已安全退出，欢迎下次再来！

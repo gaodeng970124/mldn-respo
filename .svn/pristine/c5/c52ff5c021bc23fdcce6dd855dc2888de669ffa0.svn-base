@@ -1,0 +1,68 @@
+package cn.mldn.dao.impl;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Set;
+
+import cn.mldn.dao.IReimbursementDAO;
+import cn.mldn.util.dao.abs.AbstractDAO;
+import cn.mldn.vo.Reimbursement;
+
+public class ReimbursementDAOImpl extends AbstractDAO implements IReimbursementDAO {
+
+	@Override
+	public boolean doCreate(Reimbursement vo) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean doEdit(Reimbursement vo) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean doRemove(Set<Long> ids) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Reimbursement findById(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Reimbursement> findAll() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Reimbursement> findSplit(Long currentPage, Integer lineSize) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Reimbursement> findSplit(Long currentPage, Integer lineSize, String column, String keyWord)
+			throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long getAllCount() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long getAllCount(String column, String keyWord) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

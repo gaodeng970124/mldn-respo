@@ -1,0 +1,14 @@
+# 定义全局跳转页面路径
+forward.page=/pages/plugins/front/front_forward.jsp
+error.page=/pages/plugins/error.jsp
+index.page=/index.jsp
+# 【plan】任务调度页面
+cn.mldn.action.PlanAction.add.page=/pages/back/admin/plan/plan_add.jsp
+cn.mldn.action.PlanAction.list.page=/pages/back/admin/plan/plan_history_list.jsp
+cn.mldn.action.PlanAction.list.action=/pages/back/admin/plan/plan_list.action
+cn.mldn.action.PlanAction.details.page=plan_details_list.jsp
+
+# 【supply】资源采购路径
+cn.mldn.action.SupplyPurchaseAction.supply_goods_add.page=/pages/back/admin/supply/supply_goods_add.jsp
+cn.mldn.action.SupplyPurchaseAction.supply_apply_add.page=/pages/back/admin/supply/supply_apply_add.jsp
+

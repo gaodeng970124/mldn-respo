@@ -1,0 +1,15 @@
+package cn.mldn.action;
+
+import cn.mldn.util.web.action.AbstractAction;
+import cn.mldn.util.web.annotation.Controller;
+import cn.mldn.util.web.annotation.RequestMapping;
+import cn.mldn.util.web.servlet.ModelAndView;
+
+@Controller
+public class LoginAction extends AbstractAction {
+
+//    @RequestMapping("")
+//    public ModelAndView login(){
+//
+//    }
+}
